@@ -20,33 +20,114 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="menuadmin.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Rekab data</a>
+          <a class="nav-link" href="admin-rekabdata.php">Rekab data</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="admin-rekabdata.php">Summery</a>
         </li>
-       <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-        </a>  
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>  
-        </li>-->
+      <!-- -->
       
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
 </nav>
+
+<!-- masuk desain ( masukan data baru )-->
+<div class="container">
+<h1>Masukan Data Baru</h1>
+</div>
+<div class="container">
+<table class="table">
+        <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">id</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Image</th>
+                </tr>
+        </thead>
+  <tbody>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <tr>
+            <th scope="row">1</th>
+            <td><input type="text" name="add-id" ></td>
+            <td><input type="nama" name="add-nama"></td>
+            <td><input type="email" name="add-email"></td>
+            <td><input type="password" name="add-password"></td>
+            <td> <input type="file" name="add-image" accept="image/png, image/gif, image/jpeg" /></td>
+        </tr>
+  </tbody>
+</table>
+</div>
+ 
+ <div class="container">
+ <a class="btn btn-primary" href="#" role="button">Tambah</a>
+ </div>
+     <!-- masuk desain ( update data )-->
+     <div class="container">
+            <h1>Update Data Pekerja</h1>
+    </div>
+<div class="container">
+<table class="table">
+        <thead>
+                <tr>
+                    
+                    <th scope="col">id</th>
+                    <th scope="col">Nama</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Image</th>
+                </tr>
+        </thead>
+  <tbody>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <tr>
+           
+            <td><input type="text" name="add-id" ></td>
+            <td><input type="nama" name="add-nama"></td>
+            <td><input type="email" name="add-email"></td>
+            <td><input type="password" name="add-password"></td>
+            <td> <input type="file" name="add-image" accept="image/png, image/gif, image/jpeg" /></td>
+        </tr>
+  </tbody>
+</table>
+</div>
+ 
+ <div class="container">
+ <a class="btn btn-primary" href="#" role="button">Update</a>
+ </div>
+
+  <!-- masuk desain ( delete data )-->
+  <div class="container">
+            <h1>Hapus Data Pekerja</h1>
+    </div>
+<div class="container">
+<table class="table">
+        <thead>
+                <tr>
+                    <th scope="col">id</th>
+                </tr>
+        </thead>
+  <tbody>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <tr>
+            <td><input type="text" name="add-id" ></td>
+        </tr>
+  </tbody>
+</table>
+</div>
+ 
+ <div class="container">
+ <a class="btn btn-primary" href="#" role="button">Delete Data</a>
+ </div>
+ 
+
+
 </body>
 </html>
