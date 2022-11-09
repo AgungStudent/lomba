@@ -45,6 +45,10 @@
     </div>
   </div>
 </nav>
+<form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
 <br><h2 style="text-align:center;">Halaman Rekap</h2><div class="container">
 <table class="table" cellpadding='10' style="margin-left:10px; margin-right:10px;">
     <tr style="background-color:cyan; ">
