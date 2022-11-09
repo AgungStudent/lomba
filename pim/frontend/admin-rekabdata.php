@@ -30,7 +30,7 @@
           <a class="nav-link" href="admin-rekabdata.php">Rekab data</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="admin-rekabdata.php">Summery</a>
+          <a class="nav-link" href="summery.php">Summery</a>
         </li>
       <!-- -->
       
@@ -57,7 +57,7 @@
                 </tr>
         </thead>
   <tbody>
-    <form action="#" method="post" enctype="multipart/form-data">
+    <form action="function.php" method="post" >
         <tr>
      
             <th scope="row">1</th>
@@ -72,7 +72,7 @@
 </div>
  
  <div class="container">
- <a class="btn btn-primary" href="#" role="button">Tambah</a>
+    <input type="submit" value="Submit" name="add-submit">
  </div>
      <!-- masuk desain ( update data )-->
      <div class="container">

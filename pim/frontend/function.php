@@ -15,7 +15,7 @@ function login($data) {
     global $conn;
     $email = $data["email"];
     $password = $data["password"];
-    $result = mysqli_query($conn, "SELECT * FROM admin WHERE email = '$email'");
+    $result = mysqli_query($conn, "SELECT * FROM admin WHERE email = '$email', password = '$password'");
     // cek username
     if (mysqli_num_rows($result) === 1) {
         // cek password
@@ -32,8 +32,8 @@ function login($data) {
         "pesan" => "username / password salah"
     ];
 }
+//menerima data dari button submit di form dan memasukan data ke database
 
 
 
-
-?>
+?> 

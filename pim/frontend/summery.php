@@ -26,7 +26,7 @@
           <a class="nav-link" href="admin-rekabdata.php">Rekab data</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="admin-rekabdata.php">Summery</a>
+          <a class="nav-link" href="#">Summery</a>
         </li>
        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,12 +41,23 @@
         </li>-->
       
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
     </div>
   </div>
 </nav>
+<br><h2 style="text-align:center;">Halaman Rekap</h2><div class="container">
+<table class="table" cellpadding='10' style="margin-left:10px; margin-right:10px;">
+    <tr style="background-color:cyan; ">
+        <th>ID</th>
+        <th>Nama</th>
+        <th>Tanggal</th>
+        <th>Jam</th>
+        <th>Keterangan</th>
+    </tr>
+    <tr>
+    <td colspan='5'><center>No result</td>
+    </td>
+    </tr>
+</table>
 </body>
 </html>
