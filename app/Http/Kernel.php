@@ -2,6 +2,9 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\IsAdmin;
+use App\Http\Middleware\IsHrd;
+use App\Http\Middleware\IsPegawai;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -63,5 +66,8 @@ class Kernel extends HttpKernel
         'signed' => \App\Http\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'isAdmin' => IsAdmin::class,
+        'isPegawai' => IsPegawai::class,
+        'isHrd' => IsHrd::class,
     ];
 }
