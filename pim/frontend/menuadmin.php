@@ -49,5 +49,43 @@
     </div>
   </div>
 </nav>
+
+
+<!-- -->
+<div class="continer">
+<?php
+    //panggil file function.php untuk melakukan koneksi database
+    include 'function.php';
+    //tampilkan semua data yang ada di database
+    $result = query("SELECT * FROM data_karyawan");
+   ?>
+
+<table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>id</th>
+                <th>Nama</th>
+                <th>email</th>
+            </tr>
+            <?php $i = 1; ?>
+            <?php foreach ($result as $row) : ?>
+            <tr>
+            
+            <td><?php echo $row["id"]; ?></td>
+                <td><?php echo $row["Nama"]; ?></td>
+                <td><?php echo $row["Email"]; ?></td>
+                
+                
+                
+            </tr>
+    
+            
+
+
+        
+        <?php $i++; ?>
+        <?php endforeach; ?>
+
+</div>
+
 </body>
 </html>

@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" /> 
+  
     <title>Document</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
 </head>
 <body >
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Selamat datang</a>
@@ -49,18 +53,19 @@
                     <th scope="col">Nama</th>
                     <th scope="col">Email</th>
                     <th scope="col">Password</th>
-                    <th scope="col">Image</th>
+                    
                 </tr>
         </thead>
   <tbody>
     <form action="#" method="post" enctype="multipart/form-data">
         <tr>
+     
             <th scope="row">1</th>
             <td><input type="text" name="add-id" ></td>
             <td><input type="nama" name="add-nama"></td>
             <td><input type="email" name="add-email"></td>
             <td><input type="password" name="add-password"></td>
-            <td> <input type="file" name="add-image" accept="image/png, image/gif, image/jpeg" /></td>
+           
         </tr>
   </tbody>
 </table>
@@ -82,7 +87,7 @@
                     <th scope="col">Nama</th>
                     <th scope="col">Email</th>
                     <th scope="col">Password</th>
-                    <th scope="col">Image</th>
+                    
                 </tr>
         </thead>
   <tbody>
@@ -93,7 +98,7 @@
             <td><input type="nama" name="add-nama"></td>
             <td><input type="email" name="add-email"></td>
             <td><input type="password" name="add-password"></td>
-            <td> <input type="file" name="add-image" accept="image/png, image/gif, image/jpeg" /></td>
+           
         </tr>
   </tbody>
 </table>
